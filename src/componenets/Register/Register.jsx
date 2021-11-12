@@ -26,7 +26,7 @@ class Register extends React.Component {
 
     onSubmitRegister = (event) => {
         event.preventDefault() 
-        fetch('https://intense-island-15593.herokuapp.com//register', {
+        fetch('https://intense-island-15593.herokuapp.com/register', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json'},
             body: JSON.stringify({
